@@ -25,6 +25,7 @@ class thor:
             print("Given number is not in the list")
 
     def find_node(self, val):
+        print(val)
         node = self.head
         while node:
             print(node.value, val, node.value == val)
