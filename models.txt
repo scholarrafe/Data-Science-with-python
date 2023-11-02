@@ -1,0 +1,13 @@
+
+
+                  	from sklearn.tree import DecisionTreeClassifier		: This model is used when output is binary, means 2 or 1.
+			from sklearn.linear_model import LinearRegression	: This is the most frequently used model to predict outcome. 
+			from sklearn.linear_model import LogisticRegression	: This model is used when output is binary, means 2 or 1
+
+
+
+ 1. DecisionTreeClassifier()		: you have to take following steps,
+
+							i.   my_model = DecisionTreeClassifier() : make an object(as my_model) of DTC.
+							ii.  my_model.fit(x, y)                 : fit your model by your input and output data.
+							iii. y_pred = my_model.predict(x)	: Now you get your prediction data(y_pred) by your model.
